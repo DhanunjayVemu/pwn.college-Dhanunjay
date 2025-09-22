@@ -1,6 +1,6 @@
 # Hello Hackers
 
-## Into to arguments
+## Intro to arguments
 To print the 'hackers' arguments by invoking the hello command
 
 ### Solve
