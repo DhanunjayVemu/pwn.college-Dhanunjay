@@ -13,7 +13,7 @@ challenge/run
 ```
 
 ### New Learnings
-Learnt to write relative paths
+Learnt to write implicit relative paths
 
 ### References 
 pwn.college
