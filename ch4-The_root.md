@@ -6,7 +6,7 @@ To invoke the pwn program using its path
 ### Solve
 **Flag:** `pwn.college{oezFFT2oXS80z_P6_5A2VH17-Dt.QX4cTO0wiNwIzNzEzW}`
 
-Used / to specify the path and wrote the program name 'pwn' to invoke the program
+Used / to specify the path(of root directory) and wrote the program name 'pwn' to invoke the program
 
 ```bash
 /pwn
