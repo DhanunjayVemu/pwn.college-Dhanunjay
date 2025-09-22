@@ -14,7 +14,7 @@ cd /
 ```
 
 ### New Learnings
-to run a program using explicit relative path
+To run a program using explicit relative path.
 
 ### References 
 pwn.college
