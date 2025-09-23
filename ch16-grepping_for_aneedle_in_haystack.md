@@ -1,6 +1,6 @@
 # Comprehending commands
 
-## more catting practice
+## grepping for a needle in a haystack
 Using grep to search for a string from the file whose path is mentioned.
 
 ### Solve
