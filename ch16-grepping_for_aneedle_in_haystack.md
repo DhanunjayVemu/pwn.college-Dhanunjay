@@ -13,7 +13,7 @@ grep pwn.college /challenge/data.txt
 ```
 
 ### New Learnings
-Learnt usage of grep to find strings.
+Learnt usage of grep to find a string in a big file.
 
 ### References 
 pwn.college
