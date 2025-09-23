@@ -1,4 +1,4 @@
-# Module Name
+# Comprehending commands
 
 ## TOuching files
 To make a new empty file using the touch command
