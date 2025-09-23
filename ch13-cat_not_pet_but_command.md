@@ -1,21 +1,19 @@
-# Module Name
+# Comprehending commands
 
-## Challenge Name
-Add challenge description here
+## Cat:NOt the pet, but the command
+Using cat to read the "flag" file
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{UO6UTG2KmMnvbQZRdUYmWSj2OtZ.QXxcTN0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+cat command reads the file name mentioned as the paramter, so wrote the file name, i.e., flag after cat. This gave the flag for this challenge
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+cat flag
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt usage of cat.
 
 ### References 
-Add any references or videos you used while solving the challenge.
+pwn.college
