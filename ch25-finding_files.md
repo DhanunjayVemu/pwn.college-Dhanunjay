@@ -23,7 +23,7 @@ pwn.college{krAKdV-zHmyrlppSK33yV1J57t6.QXyMDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Learnt to use the find command to find for a file in the filesystem.
+Learnt to use the find command to find a file in the filesystem.
 
 ### References 
 pwn.college
