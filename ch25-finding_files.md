@@ -16,7 +16,7 @@ cd /usr/local/lib/python3.8/dist-packages/pwnlib/flag
 ls
 __init__.py  __pycache__  flag.py
 cat flag.py
-#wasn't the flag we need
+#wasn't the flag we needed
 cd /
 cat /usr/share/locale/pa/flag
 pwn.college{krAKdV-zHmyrlppSK33yV1J57t6.QXyMDO0wiNwIzNzEzW}
