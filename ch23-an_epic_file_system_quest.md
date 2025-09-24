@@ -47,7 +47,7 @@ pwn.college{YbigznEKvBcjwPwZWFNiMPyyxZL.QX5IDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Learnt to using all the commands learnt (ls, ls -a, cd, cat) hand in hand when necessary.
+Learnt to apply all the commands learnt (ls, ls -a, cd, cat) till now at necessary times to find the flag.
 
 ### References 
 pwn.college
