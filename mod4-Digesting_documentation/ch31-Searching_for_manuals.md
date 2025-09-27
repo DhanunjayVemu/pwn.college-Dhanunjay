@@ -1,7 +1,7 @@
-# Module Name
+# Digesting documents
 
-## Challenge Name
-Add challenge description here
+## Searching_for_manuals
+To search for the required manual in a manual.
 
 ### Solve
 **Flag:** `pwn.college{wA06ONkTvgz9sDGu4GSEX3EkGLm.QX2EDO0wiNwIzNzEzW}`
