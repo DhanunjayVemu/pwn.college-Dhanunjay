@@ -9,8 +9,7 @@ text
 text
 
 ```bash
-echo COLLEGE >PWN
-/challenge/run <PWN
+
 pwn.college{flag}
 ```
 
