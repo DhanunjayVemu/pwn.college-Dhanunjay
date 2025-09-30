@@ -1,17 +1,20 @@
 # Processes and jobs
 
 ## backgrounding processes
-Add challenge description here
+To run a suspended program in the background.
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{cDXNx4HITrqpTEXtXKNZ8Nuv7-h.QX3QDO0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Ran the program and suspended it using ctrl z key, and resumed it in the background in the bg key.
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+/challenge/run
+#ctrl+z
+bg
+/challenge/run
+
+pwn.college{cDXNx4HITrqpTEXtXKNZ8Nuv7-h.QX3QDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings

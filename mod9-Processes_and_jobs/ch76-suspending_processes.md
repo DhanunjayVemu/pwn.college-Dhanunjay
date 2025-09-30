@@ -1,21 +1,23 @@
 # Processes and jobs
 
 ## suspending processes
-Add challenge description here
+To suspend proccesses
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{sijbnJEW0Sd4MinN0wZbTd3ljTr.QX1QDO0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Ran the /challenge/run which ran a process, suspended the process and ran the same process again as a copy. Got a flag.
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+/challenge/run
+# pressed ctrl z and suspended the process
+/challenge/run
+pwn.college{sijbnJEW0Sd4MinN0wZbTd3ljTr.QX1QDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt to suspend tasks.
 
 ### References 
 pwn.college
+

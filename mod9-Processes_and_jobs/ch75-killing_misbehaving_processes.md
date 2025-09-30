@@ -1,21 +1,25 @@
-# Processes and jobs
+# Processes and Jobs
 
-## killing misbehaving processes
-Add challenge description here
+## Killing Misbehaving Processes
+Killing mishaving processes (fifo)
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{0BEEtCYh7pcP7eK5ZGC_y_3nenq.0FNzMDOxwiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Ran ```ps aux```, PID 142 had the decoy and killed it.Then ran ```/challenge/run``` but it got stuck at sending the flag to the fifo file. So, used cat command first on the flag_fifo file which printed many decoys. Based on the NOTE given in the instructions, interrupted the terminal and ran ```/challenge/run``` which printed:
+```bash
+Sending the flag to /tmp/flag_fifo!
+```
+Then, got the flag by using cat command on the flag_fifo file.
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+ps aux
+kill 142
+cat /tmp/flag_fifo
+/challenge/run
+cat /tmp/flag_fifo
+pwn.college{0BEEtCYh7pcP7eK5ZGC_y_3nenq.0FNzMDOxwiNwIzNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
-
-### References 
-pwn.college
+Learnt to terminate misbehaving processes.

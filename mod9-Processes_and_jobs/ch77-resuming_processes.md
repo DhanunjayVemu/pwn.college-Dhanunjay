@@ -1,21 +1,21 @@
 # Processes and jobs
 
 ## resuming processes
-Add challenge description here
+To resume a suspended task.
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{kQbKnHmZWuSZj5DA0_k-e9N9bMW.QX2QDO0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Resumed the suspended task using the fg command. 
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+/challenge/run
+fg
+pwn.college{kQbKnHmZWuSZj5DA0_k-e9N9bMW.QX2QDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt to resume suspended processes.
 
 ### References 
 pwn.college
