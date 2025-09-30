@@ -1,21 +1,22 @@
 # Processes and jobs
 
 ## Killing processes
-Add challenge description here
+To kill a process
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{A8Cfs6qHomWwvILPoPYoBgo1o4e.QXyQDO0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Grepped for the sub string 'dont_run' in ps -ef by making a pipe from ps to grep. That printed the processes which have dont_run in their commands. Found its process ID and terminated it using the kill command with its PID as the argument. Then got the flag by  running /challenge/run 
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+ps -ef | grep dont_run
+kill 136
+/challenge/run
+pwn.college{A8Cfs6qHomWwvILPoPYoBgo1o4e.QXyQDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt to terminate a process
 
 ### References 
 pwn.college

@@ -1,21 +1,21 @@
 # Processes and jobs
 
 ## Listing processes
-Add challenge description here
+To list all the running processes.
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{gSGwNM4ZzkH6k1NOv20zCYU6RZ2.QX4MDO0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Had to use ps aux commadn (process status) to see all the currently running processes. Found a command in one of them which ran /challenge in a specific way. So, ran that and got the flag.
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+ps aux
+/challenge/23590-run-29265
+pwn.college{gSGwNM4ZzkH6k1NOv20zCYU6RZ2.QX4MDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt to use ps aux and ps-ef commands
 
 ### References 
 pwn.college
