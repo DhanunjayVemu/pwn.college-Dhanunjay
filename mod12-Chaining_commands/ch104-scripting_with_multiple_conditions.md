@@ -12,7 +12,22 @@ For any other input, output "unknown"
 ### Solve
 **Flag:** `pwn.college{EHfeTA1is72vt7BiRxzaWztkBdv.0FOzMDOxwiNwIzNzEzW}`
 
-In this challenge, I first appended the entire ```if then elif else fi``` conditions into ```solve.sh``` then tried running with hack, pwn, learn as arguments and other arguments which worked. So, I ran ```/challenge/run``` and got the flag.
+In this challenge, I first appended the entire ```if then elif else fi``` conditions into ```solve.sh``` then tried running with hack, pwn, learn as arguments and other arguments which worked. So, I ran ```/challenge/run``` and got the flag. The conditinal commands are:
+
+```bash
+if [ "$1" == "hack" ]
+then
+        echo "the planet"
+elif [ "$1" == "pwn" ]
+then
+        echo "college"
+elif [ "$1" == "learn" ]
+then
+        echo "linux"
+else
+        echo "unknown"
+fi
+```
 
 
 ```bash
