@@ -1,22 +1,31 @@
 # Chaining Commands
 
 ## Scripting with Default Cases
-For this challenge, write a script at /home/hacker/solve.sh that:
-
+To write a script at /home/hacker/solve.sh that:
 Takes one argument
 If the argument is "pwn", output "college"
 For any other input, output "nope"
 
 ### Solve
-**Flag:** `pwn.college{80Q2yzN_2QWANuLJo1Ab4dlGR96.01NzMDOxwiNzAzNzEzW}`
+**Flag:** `pwn.college{IopRdtfUeMFGU_NIGDZJOhHTVnM.01NzMDOxwiNwIzNzEzW}`
 
-In this challenge, I first appended the entire ```if then else fi``` conditions into ```solve.sh``` then tried running with pwn as argument and no argument which worked. So, I ran ```/challenge/run``` and got the flag.
+opened the nano text editor using ```nano solve.sh``` command, and wrote this conditional command in it:
+
+```bash
+if [ "$1" == "pwn" ]
+then
+    echo "college"
+else
+    echo "nope"
+fi
+```
 
 ```bash
 bash solve.sh pwn
 bash solve.sh
 /challenge/run
+pwn.college{IopRdtfUeMFGU_NIGDZJOhHTVnM.01NzMDOxwiNwIzNzEzW}
 ```
 
 ### New Learnings
-Learned about scripting with default cases.
+Learnt about scripting with default cases.

@@ -6,10 +6,10 @@ To make shell scripts with arguments.
 ### Solve
 **Flag:** `pwn.college{IPi6_gC_ewLaVk8Pj11Vu_X78Iw.0VNzMDOxwiNwIzNzEzW}`
 
-redirected the echo of $2 $1 arguments into the shell script and the ran the ```/challenge/run``` program to get the flag.
+opened the script file in nano text editor using the nano command and wrote ```echo "$2 $1" ``` in it.After exiting it, ran the ```/challenge/run``` program to get the flag in the shell.
 
 ```bash
-echo 'echo "$2 $1"' >solve.sh
+bash solve.sh pwn college
 /challenge/run
 pwn.college{IPi6_gC_ewLaVk8Pj11Vu_X78Iw.0VNzMDOxwiNwIzNzEzW}
 ```

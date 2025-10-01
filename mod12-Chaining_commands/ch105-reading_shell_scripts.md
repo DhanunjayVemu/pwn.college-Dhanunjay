@@ -4,12 +4,15 @@
 In this level, we will learn to read shell scripts. /challenge/run is a shell script that requires you to put in a secret password, but that password is hardcoded into the script iself! Read the script (using, say, cat), figure out the password, and get the flag!
 
 ### Solve
-**Flag:** `pwn.college{kVQq0sgRrkE0FI0UH175Lh-YpNc.0lMwgDOxwiNzAzNzEzW}`
+**Flag:** `pwn.college{wsauevTPHVmN065FFbBCQnVF0HU.0lMwgDOxwiNwIzNzEzW}`
 
-In this challenge, I ran ```echo "hack the PLANET"``` onto the file using pipe operator ```|``` and got the flag.
+catted /challenge/run and got conditional code which had the password check condition in the if condition. So ran the /challenge/run program and entered that string as password to get the flag.
 
 ```bash
-echo "hack the PLANET" | /challenge/run
+cat /challenge/run
+/challenge/run
+hack the PLANET #password
+pwn.college{wsauevTPHVmN065FFbBCQnVF0HU.0lMwgDOxwiNwIzNzEzW}
 ```
 
 ### New Learnings
