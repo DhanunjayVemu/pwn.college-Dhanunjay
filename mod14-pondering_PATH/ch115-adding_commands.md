@@ -17,4 +17,4 @@ PATH=$"PWD:$PATH"
 ```
 
 ### New Learnings
-Learned about adding commands.
+Learnt about adding commands.

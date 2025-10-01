@@ -17,4 +17,4 @@ PATH=$"PWD:$PATH"
 ```
 
 ### New Learnings
-Learned about hijacking commands.
+Learnt about hijacking commands.
