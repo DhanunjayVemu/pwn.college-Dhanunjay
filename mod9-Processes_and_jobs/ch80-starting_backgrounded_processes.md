@@ -1,21 +1,20 @@
 # Processes and jobs
 
 ## starting backgrounded processes
-Add challenge description here
+Start a process directly in the background.
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{MkW4fQQePUpA3RZKHs-bwsYIK3e.QX5QDO0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Appended '&' at the end of the process command and it started it in the background directly.
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+/challenge/run &
+pwn.college{MkW4fQQePUpA3RZKHs-bwsYIK3e.QX5QDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt to run a process in the background from the beginning.
 
 ### References 
 pwn.college

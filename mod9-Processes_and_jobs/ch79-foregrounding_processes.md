@@ -1,21 +1,24 @@
 # Processes and jobs
 
 ## foregrounding processes
-Add challenge description here
+To run a background process in foreground
 
 ### Solve
-**Flag:** `pwn.college{helloworld}`
+**Flag:** `pwn.college{YMJJpQRypL_foeETI1jDhhtpHBh.QX4QDO0wiNwIzNzEzW}`
 
-type in your solve and your thought process behind solving the challenge. Include as much as info as possible. Use triple ticks for any bash commands and output you type on the terminal.
+Ran a process and suspended it using ctrl-z. Then ran it in the backgorund using bg and suspended it again using ctrl-z, then using fg command and ran it in foreground.
 
 ```bash
-command 1
-command 2
-pwn.college{helloworld}
+/challenge/run
+#ctrl-z
+bg
+fg
+#enter
+pwn.college{YMJJpQRypL_foeETI1jDhhtpHBh.QX4QDO0wiNwIzNzEzW}
 ```
 
 ### New Learnings
-Brief note on what you learned from the challenge
+Learnt to run a background process in foreground.
 
 ### References 
 pwn.college
